@@ -1,0 +1,16 @@
+﻿l_english:
+  origin_ulysses_initiative: "Ulysses Initiative"
+  origin_tooltip_ulysses_initiative_effects: "- $STARTING_PLANET$ ['concept_colonial_spirit'] Planetary Modifier\n- An ['concept_advanced_empire'] of the same species is present in the galaxy"
+  origin_tooltip_ulysses_initiative_negative_effects: "$STARTING_NOT_HOMEWORLD$"
+  origin_ulysses_initiative_desc: "The UN-sponsored Ulysses Initiative oversaw the construction of six great ark ships in low Earth orbit at the end of the 21st century. The ships, carrying a quarter million colonists each, were sent through a recently discovered subspace phenomenon on the outer edge of the Oort Cloud - a small, unstable wormhole. None were heard from again, and the destabilized wormhole vanished."
+  
+  EMPIRE_DESIGN_ulysses_1: "Cooperative Dynamics"
+  EMPIRE_DESIGN_ulysses_1_desc: "The UN-sponsored Ulysses Initiative oversaw the construction of six great ark ships in low Earth orbit at the end of the 21st century. The ships, carrying a quarter million colonists each, were sent through a recently discovered subspace phenomenon on the outer edge of the Oort Cloud - a small, unstable wormhole. None were heard from again, and the destabilized wormhole vanished.\n\nYet unbeknownst to Earth, some of the ark ships survived the passage and established flourishing colonies on other worlds. One such band of pioneers was determined to survive the harsh world they found themselves on through the principles of mutual aid and direct action."
+  PRESCRIPTED_ship_prefix_humans3: "CSS"
+  NAME_Hope: "Hope"
+  NAME_Kepler296: "Kepler-296"
+  PRESCRIPTED_ruler_name_humans3: "Nathaniel Winter"
+  PRESCRIPTED_ruler_title_humans3: "Director"
+  
+  START_SCREEN_ULYSSES_INITIATIVE: "More than a century has passed since a great ark ship carred a quarter million of our ancestors from distant Earth to the planet they now call [Root.Capital.GetName]. After a long and perilous journey, the colonists rejoiced when they first saw sunlight again - albeit from a foreign star.\n\nThe early years were difficult. Famines, wildlife attacks and countless other challenges were overcome, and eventually the planet was tamed. Surging population numbers and massive construction efforts soon gave us the means to return to the stars."
+  START_SCREEN_CD: "More than a century has passed since the great ark ship Orchid carried a quarter million of our ancestors from distant Earth to the world we have come to know as [Root.Capital.GetName]. After a long and perilous journey, the colonists rejoiced when they first saw sunlight again - albeit from a foreign star.\n\nThe early years were difficult. Operating on action plans devised by earthbound C-Suite Executives who would not be making the trip themselves, the management teams from the Ulysses Initiative sponsor corporations proved a greater threat than even the local wildlife, and cultivating the terrestrial crops that had been brought proved harder than imagined. It was only after the spark of a labor movement became a raging flame that we began to flourish.\n\nOnce we shared a unity of purpose, our numbers grew exponentially. The last few decades have seen great leaps in technology, and we are now - finally - ready to reach out and explore the stars from whence we came!"

@@ -1,0 +1,74 @@
+#Cooperative Dynamics
+ulysses_1 = {
+	name = EMPIRE_DESIGN_ulysses_1
+	adjective = "PRESCRIPTED_adjective_humans1"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_humans3"
+	
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "PRESCRIPTED_species_name_humans1"
+		plural = "PRESCRIPTED_species_plural_humans1"
+		adjective = "PRESCRIPTED_species_adjective_humans1"
+		name_list = "HUMAN1"
+		trait = "trait_adaptive"
+		trait = "trait_nomadic"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+	
+	authority = "auth_corporate"
+	civics = { "civic_worker_coop" "civic_free_traders" }
+	government = "gov_worker_coop"
+	
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_fanatic_materialist"
+	
+	origin = "origin_ulysses_initiative"
+	
+	flags = { human_3 custom_start_screen }
+
+	playable = has_humanoids # scripted_triggers
+	
+	planet_name = "NAME_Hope"
+	planet_class = "pc_continental"
+	initializer = "custom_starting_init_03"
+	system_name = "NAME_Kepler296"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category="human"
+			file="flag_human_15.dds"
+		}
+		background = {
+			category="backgrounds"
+			file="flag_BG_13.dds"
+		}
+		colors = {
+			"purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = male
+		name = "PRESCRIPTED_ruler_name_humans3"
+		portrait = "human_male_02"
+		texture = 0
+		attachment = 54
+		clothes = 2
+		ruler_title = "PRESCRIPTED_ruler_title_humans3"
+		ruler_title_female = "PRESCRIPTED_ruler_title_humans3"
+		trait = "leader_trait_spark_of_genius"
+		leader_class = "scientist"
+	}
+}

@@ -1,0 +1,22 @@
+namespace = ulysses
+
+# Ulysses Setup
+country_event = {
+	id = ulysses.100
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = lost_colony_child_of@event_target:npc_UNoE
+		owner_species = {
+			set_species_homeworld = event_target:sol_system_earth
+			set_species_identity = event_target:human_species
+		}
+		event_target:npc_UNoE = {
+			set_country_flag = lost_colony_parent
+			set_country_flag = special_intro_for@root
+			set_country_flag = lost_colony_parent_of@root
+		}
+	}
+}

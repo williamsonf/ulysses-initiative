@@ -1,0 +1,21 @@
+# Standard Ulysses Initiative
+part = {
+	location = 0
+	localization = "START_SCREEN_ULYSSES_INITIATIVE"
+	
+	trigger = {
+		has_origin = origin_ulysses_initiative
+		is_gestalt = no
+		NOT = { has_country_flag = human_2 }
+		NOT = { has_country_flag = human_3 }
+	}
+}
+
+part = {
+	location = 0
+	localization = "START_SCREEN_CD"
+	
+	trigger = {
+		has_country_flag = human_3
+	}
+}
